@@ -17,7 +17,7 @@ h1, h2, h3, h4 {
 }
 
 a {
-  color: grey;
+  color: rgb(71, 71, 107);
   text-decoration: underline;
 }
 
@@ -34,7 +34,10 @@ i:hover {
   color: rgb(138, 92, 138)
 }
 
-
+.sidebar-li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 .list-in-line {
   padding-left: 0;
   text-align: center;
@@ -49,6 +52,11 @@ i:hover {
 .style-logo {
   font-size: 48px;
   color: grey;
+}
+
+.style-smaller-logo {
+  font-size: 38px;
+  color: color: rgb(92, 92, 138);
 }
 
 .centered-headers {
@@ -86,6 +94,18 @@ img.center {
   border: 5px solid rgb(209, 209, 224);
 }
 
+#sidebar {
+  position: fixed;
+  width: 120px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: grey;
+}
+#page-content {
+  margin-left: 100px;
+}
+
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -104,5 +124,7 @@ img.center {
   .container {
     width: 300px;
   }
+
+
 }
 
